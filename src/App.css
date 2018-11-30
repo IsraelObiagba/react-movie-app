@@ -9,7 +9,7 @@
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
+  min-height: 70px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -20,6 +20,16 @@
 
 .App-link {
   color: #61dafb;
+}
+
+.App-movies {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.Movie {
+  width: 23%;
 }
 
 @keyframes App-logo-spin {
