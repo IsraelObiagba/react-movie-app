@@ -28,7 +28,7 @@ class App extends Component {
     this.setState({
       loading: true
     });
-    fetch("http://www.omdbapi.com/?s=" + this.state.search + "&apikey=feea857")
+    fetch("https://www.omdbapi.com/?s=" + this.state.search + "&apikey=feea857")
       .then(res => res.json())
       .then(jsonres => {
         this.setState({
