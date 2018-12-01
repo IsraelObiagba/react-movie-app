@@ -43,5 +43,4 @@ The app will be deployed using either heroku or Netlify
 Please read the [CONTRIBUTING.md](#) file (Soon to be added) to see how you can contribute and add more features to the project.
 
 # Authors
-Israel Obiagba
-TODO: (Add other contributors)
+[Israel Obiagba](https://twitter.com/israelobiagba), [Samuel Omole](https://twitter.com/AjeboDeveloper)
