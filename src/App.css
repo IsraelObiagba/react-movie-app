@@ -23,6 +23,7 @@
 }
 
 .App-movies {
+  position: relative;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -30,6 +31,14 @@
 
 .Movie {
   width: 23%;
+}
+
+.App-movies .image-loader {
+  position: absolute;
+  left: 42%;
+  top: 3rem;
+  width: 10rem;
+  height: 10rem; 
 }
 
 @keyframes App-logo-spin {

@@ -7,8 +7,9 @@ class Header extends Component {
   render() {
     return (
       <header className="App-header">
-        <p>{this.props.title}</p>
-        <p>{this.props.count}</p>
+        <h1>Santi Movies</h1>
+        {/* <p>{this.props.title}</p>
+        <p>{this.props.count}</p> */}
         {/* <a
           className="App-link"
           href="https://reactjs.org"

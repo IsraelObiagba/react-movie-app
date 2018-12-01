@@ -8,10 +8,10 @@ class Movie extends Component {
   render() {
     return (
       <div className="Movie">
-        <h3 className="Movie-header">{this.props.title}</h3>
-        <img className="Movie-image" src={this.props.poster} alt="..."/>
-        <p className="Movie-text">{this.props.year}</p>
-        <p className="Movie-text">{this.props.description}</p>
+        <h3 className="Movie-header">{this.props.movieName}</h3>
+        <img className="Movie-image" src={this.props.movieImage} alt="..."/>
+        <p className="Movie-text">{this.props.movieYear}</p>
+        {/* <p className="Movie-text">{this.props.description}</p> */}
       </div>
     )
   }
