@@ -1,5 +1,5 @@
-# react-workshop-demo
-This is the demo application we will be building for the React Workshop on Day 1
+# Movie Search Application
+This is the demo application that uses the [imdb api](http://www.omdbapi.com/) in building a simple movie agrreagtion application.
 
 # Getting Started
 These instructions should get you a copy of the project up and running on your local machine for development and testing purposes.
@@ -19,7 +19,7 @@ cd <folder-name>
 
 - Clone this repository:
 ```
-git clone https://github.com/samie820/react-workshop-demo.git .
+git clone https://github.com/IsraelObiagba/react-movie-app.git .
 ```
 
 - Install all the project's dependencies:
@@ -31,9 +31,6 @@ yarn or npm install
 npm start or yarn start
 ```
 
-# Structure
-This repository has been seperated into different branches based on the checkpoints reached and the concepts explained, you can see the various branches below
-- TODO: Add branches and description
 
 # Deployment
 The app will be deployed using either heroku or Netlify
@@ -46,4 +43,5 @@ The app will be deployed using either heroku or Netlify
 Please read the [CONTRIBUTING.md](#) file (Soon to be added) to see how you can contribute and add more features to the project.
 
 # Authors
-TODO: Add the Authors
+Israel Obiagba
+TODO: (Add other contributors)
